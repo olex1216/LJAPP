@@ -1,0 +1,20 @@
+{
+  "name": "ljapp",
+  "description": "AngularJS 仿拉勾app",
+  "main": "index.js",
+  "authors": [
+    "olex"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/olex1216/LJAPP",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.5.8"
+  }
+}

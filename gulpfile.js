@@ -1,6 +1,6 @@
 	
 	// gulp 自动化构建项目
-	
+
 	var gulp = require('gulp');
 	var $ = require('gulp-load-plugins')();
 	var open = require('open');
