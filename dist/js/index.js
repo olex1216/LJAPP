@@ -1,1 +1,1 @@
-"use strict";var app=angular.module("LJapp",["ui.router"]);angular.module("LJapp",["ui.router"]).config(["$stateProvider","$urlRouterProvider",function(r,a){r.state("main",{url:"/main",templateUrl:"views/main.html"}),a.otherwise("main")}]);
+"use strict";var app=angular.module("LJapp",["ui.router"]);angular.module("LJapp",["ui.router"]).config(["$stateProvider","$urlRouterProvider",function(r,a){r.state("main",{url:"/main",templateUrl:"views/main.html",controller:"mainCtrl"}),a.otherwise("main")}]),angular.module("LJApp",[]).controller("mainCtrl",["",function(){}]);

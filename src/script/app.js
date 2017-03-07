@@ -5,4 +5,3 @@
  * Description
  */
  var app = angular.module('LJapp', ['ui.router']);
- 
