@@ -7,6 +7,6 @@
 *
 * Description
 */
-angular.module('LJApp', []).controller('mainCtrl', ['', function(){
+angular.module('app', []).controller('mainCtrl', ['', function(){
 	
 }])

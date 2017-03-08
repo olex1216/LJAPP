@@ -4,7 +4,7 @@
  *
  * Description
  */
- var app = angular.module('LJapp', ['ui.router']);
+ var app = angular.module('app', ['ui.router']);
 
 'use strict';
 
@@ -32,6 +32,31 @@ angular.module('LJapp',['ui.router']).config(['$stateProvider','$urlRouterProvid
 *
 * Description
 */
-angular.module('LJApp', []).controller('mainCtrl', ['', function(){
+angular.module('app', []).controller('mainCtrl', ['', function(){
 	
 }])
+'use strict';
+
+angular.module('app').directive('appFoot',[function () {
+	return {
+		restrict: 'EA',
+		
+	}
+}])
+'use strict';
+
+/**
+ *  Module
+ *
+ * Description
+ */
+ angular.module('app').directive('appHead', ['', function(){
+ 	return {
+ 		restrict: 'EA',
+ 		replace: true,
+ 		templateUrl: 'views/template/head.html',
+ 		link: function($scope, iElm, iAttrs, controller) {
+ 			
+ 		}
+ 	};
+ }]);

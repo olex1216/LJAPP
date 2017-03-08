@@ -4,4 +4,4 @@
  *
  * Description
  */
- var app = angular.module('LJapp', ['ui.router']);
+ var app = angular.module('app', ['ui.router']);
