@@ -23,18 +23,6 @@ angular.module('LJapp',['ui.router']).config(['$stateProvider','$urlRouterProvid
 
 	$urlRouterProvider.otherwise('main');
 }])
-
-// 控制器
-'use strict';
-
-/**
-* LJApp Module
-*
-* Description
-*/
-angular.module('app', []).controller('mainCtrl', ['', function(){
-	
-}])
 'use strict';
 
 angular.module('app').directive('appFoot',[function () {
@@ -60,3 +48,15 @@ angular.module('app').directive('appFoot',[function () {
  		}
  	};
  }]);
+
+// 控制器
+'use strict';
+
+/**
+* LJApp Module
+*
+* Description
+*/
+angular.module('app', []).controller('mainCtrl', ['', function(){
+	
+}])

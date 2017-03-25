@@ -49,7 +49,7 @@
 
 	});
 
-	// 合并压缩js
+	// 合并压缩混淆js
 	gulp.task('js', function() {
 	    gulp.src(app.srcPath + 'script/**/*.js')
 	      .pipe($.concat('index.js'))
@@ -70,8 +70,6 @@
 
 	});
 
-	// 打包任务、构建
-	gulp.task('build',['lib','html','json','less','js','image']);
 
 
 	// 移除目录
@@ -79,6 +77,10 @@
 	    gulp.src([app.devPath,app.prdPath])
 	      .pipe($.clean())
 	});
+
+	// 打包任务、构建
+	gulp.task('build',['lib','html','json','less','js','image']);
+
 
 	// 启动服务
 	gulp.task('serve', function() {
